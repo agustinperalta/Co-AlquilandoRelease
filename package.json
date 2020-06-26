@@ -2,7 +2,7 @@
   "name": "grupo1-mads-2020",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://agustinperalta.github.io/Co-AlquilandoFrontEnd/",
+  "homepage": "https://agustinperalta.github.io/Co-AlquilandoRelease/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
