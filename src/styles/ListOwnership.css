@@ -1,0 +1,52 @@
+.render.ListOwnerShip > .titleRow{
+    display: grid;
+    grid-template-areas: 'one two' 'three three';
+    margin-top: 25px !important;
+}
+
+.titleRow > title {
+    grid-area: one;
+    text-align:"left";
+    padding:15px;
+}
+
+.titleRow > .filterComponent {
+    grid-area: two;
+}
+
+.inline.fields > .panelFilter{
+    grid-area: three;
+    margin: 0% 0% 1% 8.5%;
+    width:83%;
+
+}
+
+.tarjetaProp {
+    padding-left: 10px;
+    padding-bottom: 10px ;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 100%;
+    text-align: -webkit-center;
+}
+
+@media screen and (min-width:600px){
+    .tarjetaProp{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .tarjetaProp{
+
+        width: 100%;
+
+    }
+}
+
+
+
+
+
